@@ -1,0 +1,178 @@
+.collapsible-link::before {
+  content: '';
+  width: 14px;
+  height: 2px;
+  background: #333;
+  position: absolute;
+  top: calc(50% - 1px);
+  right: 1rem;
+  display: block;
+  transition: all 0.3s;
+}
+
+.collapsible-link::after {
+  content: '';
+  width: 2px;
+  height: 14px;
+  background: #333;
+  position: absolute;
+  top: calc(50% - 7px);
+  right: calc(1rem + 6px);
+  display: block;
+  transition: all 0.3s;
+}
+
+.homepage-mission-statement-row > .col {
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tools-card {
+  padding: 10px;
+  margin: 10px;
+}
+
+.tools-card-text {
+}
+
+body {
+  font-family: 'Noto Sans SC' !important;
+}
+
+.card-text {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: rgb(128,128,128);
+  overflow: hidden;
+}
+
+@keyframes enlarge {
+  from {
+    transform: scale(1.0);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes move-text-top {
+  from {
+    top: 40px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+.tabs-description-text {
+  padding: 1rem 0;
+  text-align: left;
+}
+
+.tabs-description-circle {
+  width: 300px;
+}
+
+.tabs-description-title {
+  padding: 1rem 0;
+}
+
+.card.tools-card i {
+  color: rgb(254,157,42);
+  padding: 0.5rem 0;
+}
+
+section {
+  padding: 2rem 0;
+  background-color: rgb(254, 157, 42) !important;
+}
+
+.bg-dark {
+  background-color: rgb(254, 157, 42) !important;
+  margin-top: 3rem;
+}
+
+.tab-small {
+  display: block;
+  text-align: center;
+}
+
+text.value {
+  font-size: 20px;
+  font-family: Abril Fatface;
+}
+
+@keyframes move-heading1-right-to-left {
+  from {
+    margin-left: 100px;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+
+@keyframes move-heading2-left-to-right {
+  from {
+    margin-left: -100px;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+
+.neumorphic-percentage {
+  border-radius: 31px;
+  background: #eef4f7;
+  box-shadow: 7px 7px 14px #5f6263, -7px -7px 14px #ffffff;
+  border-radius: 20px;
+  background: #eef4f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+}
+
+.card.accordion-item {
+  margin-bottom: 1.5rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+.card-header.accordion-item-bold {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.accordion-item-text {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.accordion-item-heading {
+  padding: 1rem 0;
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
